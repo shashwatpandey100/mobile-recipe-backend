@@ -1,0 +1,40 @@
+# Node dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment files
+.env
+.env.*.local
+
+# Drizzle ORM
+drizzle/migrations/.snapshot/
+drizzle/migrations/.cache/
+drizzle/*.sqlite
+drizzle/*.db
+
+# Coverage (if using tests)
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Mac/OS specific
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
